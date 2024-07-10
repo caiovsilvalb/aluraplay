@@ -83,21 +83,29 @@ body {
 }
 
 .card__imagem {
-    
+    margin-left: 1.5em;
 }
 
 .card__container {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1em 2em 2em 2em;
+    padding: 1em 2em 0.5em 2em;
    
 }
 
 .card__titulo {
-    
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--cinza);
 }
 
 .card__texto {
+    padding-left: 4em;
+    font-weight: 400;
+    color: var(--cinza);
+}
 
+.card__thumb2 {
+    padding-top: 2em;
 }
